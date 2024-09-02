@@ -15,7 +15,7 @@ import postgre from "../assets/skills/postgre.png";
 import typescript from "../assets/skills/typescript.png";
 export default function about() {
 	return (
-		<div className="bg-bg-orange text-white  p-2">
+		<div className="about bg-bg-orange text-white  p-2 pt-14" id="about">
 			<div>
 				<h1 className="text-xl">about me</h1>
 				<p className="border p-2 m-6">

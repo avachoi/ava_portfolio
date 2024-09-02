@@ -1,19 +1,24 @@
 import React from "react";
-import email from "../assets/icons/email.png";
-import github from "../assets/icons/github.png";
+import email from "../assets/icons/emailW.png";
+import github from "../assets/icons/githubW.png";
 import linkedin from "../assets/icons/linkedin.png";
 import resume from "../assets/resume.pdf";
 
 export default function Links() {
-	console.log("Resume path:", resume); // Add this line to log the resume path
 	return (
-		<div>
-			<img src={github} alt="email" />
-			<img src={linkedin} alt="linkedin" />
-			<img src={email} alt="email" />
-			<a href={resume} target="_blank">
-				resume
-			</a>
+		<div className="bg-bg-orange">
+			<div className="linksContents flex justify-center p-4 items-center">
+				<img src={github} alt="email" className="w-10 m-2" />
+				<img src={linkedin} alt="linkedin" className="w-10 m-2" />
+				<img src={email} alt="email" className="w-10 m-2" />
+				<a
+					href={resume}
+					target="_blank"
+					className="w-16 m-2 rounded-md border border-white p-1 text-white  font-semibold text-sm"
+				>
+					resume
+				</a>
+			</div>
 		</div>
 	);
 }

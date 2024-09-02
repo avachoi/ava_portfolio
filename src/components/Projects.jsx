@@ -6,7 +6,7 @@ import mealMaster from "../assets/projects/mealMaster.png";
 
 export default function Projects() {
 	return (
-		<div className="bg-bg-grey p-6">
+		<div className="bg-bg-grey p-6 pt-14 text-white" id="projects">
 			<h2 className="text-xl ">Projects</h2>
 			<div>
 				<img src={fitMate} alt="fitMate" className="rounded-lg my-6" />

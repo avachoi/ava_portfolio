@@ -7,9 +7,12 @@ export default function Welcome() {
 				<p className="text-white text-sm">Hi, My name is</p>
 				<p className="text-pf-orange text-5xl font-bold">Ava Choi</p>
 				<p className="text-white text-2xl">I am a software Engineer</p>
-				<button className="bg-pf-orange text-white p-2 rounded-lg mt-4 text-lg">
+				<a
+					className="bg-pf-orange text-white p-2 rounded-lg mt-4 text-lg"
+					href="#contact"
+				>
 					Contact Me
-				</button>
+				</a>
 			</section>
 		</div>
 	);

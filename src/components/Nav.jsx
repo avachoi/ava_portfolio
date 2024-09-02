@@ -1,8 +1,7 @@
 import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
-
-import About from "./About";
+import resume from "../assets/resume.pdf";
 
 export default function nav() {
 	return (
@@ -21,8 +20,9 @@ export default function nav() {
 				>
 					<div className="py-1">
 						<MenuItem>
+							{/* <Link to={About} className="block px-4 py-2  text-sm text-white data-[focus]:bg-gray-100 data-[focus]:text-gray-900">About</Link> */}
 							<a
-								href="#"
+								href="#about"
 								className="block px-4 py-2  text-sm text-white data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
 							>
 								About
@@ -30,7 +30,7 @@ export default function nav() {
 						</MenuItem>
 						<MenuItem>
 							<a
-								href="#"
+								href="#projects"
 								className="block px-4 py-2  text-sm text-white data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
 							>
 								Projects
@@ -38,10 +38,11 @@ export default function nav() {
 						</MenuItem>
 						<MenuItem>
 							<a
-								href="#"
+								href={resume}
+								target="_blank"
 								className="block px-4 py-2  text-sm text-white data-[focus]:bg-gray-100 data-[focus]:text-gray-900"
 							>
-								Resume
+								resume
 							</a>
 						</MenuItem>
 					</div>
