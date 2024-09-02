@@ -11,6 +11,8 @@ export default {
 				"bg-grey": "#3d3d3c",
 				"box-grey": "#333232",
 				"form-grey": "#4e4c4c",
+				"pf-pink": "#EE7674",
+				"pf-blue": "5290C9",
 			},
 		},
 	},

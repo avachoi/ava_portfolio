@@ -18,7 +18,7 @@ export default function about() {
 		<div className="about bg-bg-orange text-white  p-2 pt-14" id="about">
 			<div>
 				<h1 className="text-xl">about me</h1>
-				<p className="border p-2 m-6">
+				<p className="border-2 border-pf-pink p-2 m-6">
 					I am an experienced Software Engineer proficient in JavaScript,
 					React.js, Node.js, and more. I have contributed to impactful projects,
 					including Cov19NYC, a full-stack web application for tracking COVID-19
@@ -32,44 +32,44 @@ export default function about() {
 				<h1 className="text-xl">Skills</h1>
 				<div>
 					<div className="flex flex-row flex-wrap w-full">
-						<div className="bg-white bg-opacity-90 drop-shadow-md p-2 rounded-lg w-14 h-14 m-4">
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 drop-shadow-md p-2 rounded-lg w-14 h-14 m-4 ">
 							<img src={html} alt="html Logo" className="w-fill" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={css} alt="css Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={css} alt="css Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={tailwind} alt="tailwind Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={tailwind} alt="tailwind Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={javascript} alt="javascript Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={javascript} alt="javascript Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={typescript} alt="typescript Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={typescript} alt="typescript Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={react} alt="react Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={react} alt="react Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={bootstrap} alt="bootstrap Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={bootstrap} alt="bootstrap Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={node} alt="node Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={node} alt="node Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={mongodb} alt="mongodb Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={mongodb} alt="mongodb Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={postgre} alt="postgre Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={postgre} alt="postgre Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={aws} alt="AWS Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={aws} alt="AWS Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={git} alt="git Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={git} alt="git Logo" className="p-2" />
 						</div>
-						<div className="bg-white p-2 bg-opacity-90 rounded-lg w-14 h-14 m-4">
-							<img src={photoshop} alt="photoshop Logo" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
+							<img src={photoshop} alt="photoshop Logo" className="p-2" />
 						</div>
 					</div>
 				</div>

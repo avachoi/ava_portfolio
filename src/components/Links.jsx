@@ -8,8 +8,15 @@ export default function Links() {
 	return (
 		<div className="bg-bg-orange">
 			<div className="linksContents flex justify-center p-4 items-center">
-				<img src={github} alt="email" className="w-10 m-2" />
-				<img src={linkedin} alt="linkedin" className="w-10 m-2" />
+				<a href="https://github.com/avachoi" target="_blank">
+					<img src={github} alt="email" className="w-10 m-2" />
+				</a>
+				<a
+					href="https://www.linkedin.com/in/ava-jeongyeonchoi "
+					target="_blank"
+				>
+					<img src={linkedin} alt="linkedin" className="w-10 m-2" />
+				</a>
 				<img src={email} alt="email" className="w-10 m-2" />
 				<a
 					href={resume}
