@@ -5,8 +5,12 @@ import resume from "../assets/resume.pdf";
 
 export default function nav() {
 	return (
-		<div className="bg-bg-grey flex justify-between p-4 fixed w-full">
-			<div>logo</div>
+		<div className="bg-bg-grey flex justify-between px-8 py-4 fixed w-full">
+			<div className=" text-xl font-extrabold">
+				<span className="font-serif animate-pulse bg-gradient-to-r from-white via-pf-pink to-pf-orange bg-clip-text text-transparent">
+					Ava
+				</span>
+			</div>
 			<Menu as="div" className="relative inline-block text-left">
 				<div>
 					<MenuButton className="inline-flex w-fit justify-center gap-x-1.5  text-white text-xl font-bold hover:text-pf-orange">

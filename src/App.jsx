@@ -11,7 +11,7 @@ import Footer from "./components/Footer";
 
 export default function App() {
 	return (
-		<div className=" p-0">
+		<div className="p-0 w-screen h-screen ">
 			<Nav />
 			<div className="">
 				<Welcome />

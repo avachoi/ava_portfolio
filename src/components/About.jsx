@@ -32,8 +32,8 @@ export default function about() {
 				<h1 className="text-xl">Skills</h1>
 				<div>
 					<div className="flex flex-row flex-wrap w-full">
-						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 drop-shadow-md p-2 rounded-lg w-14 h-14 m-4 ">
-							<img src={html} alt="html Logo" className="w-fill" />
+						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4 ">
+							<img src={html} alt="html Logo" className="p-2" />
 						</div>
 						<div className="bg-gradient-to-b from-slate-100 via-white to-zinc-400 rounded-lg w-14 h-14 m-4">
 							<img src={css} alt="css Logo" className="p-2" />
