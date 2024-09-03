@@ -30,7 +30,7 @@ export default function Contact() {
 			</p>
 			<div className="flex justify-center flex-wrap">
 				<div>
-					<div className="m-6">
+					<div className="m-6 md:w-96">
 						<div className="flex justify-start items-center">
 							<img src={phone} className="w-10 h-8" />
 							<div className="flex flex-col items-start m-4">
@@ -48,7 +48,7 @@ export default function Contact() {
 					</div>
 				</div>
 
-				<form ref={form} onSubmit={sendEmail} className="flex flex-col">
+				<form ref={form} onSubmit={sendEmail} className="flex flex-col w-96">
 					<input
 						type="text"
 						name="user_name"

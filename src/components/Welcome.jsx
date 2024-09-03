@@ -2,8 +2,11 @@ import React from "react";
 
 export default function Welcome() {
 	return (
-		<div>
-			<section className="h-screen bg-bg-welcome m-0 flex items-start flex-col justify-center text-center text-3xl p-12 md:-14 lg:p-16 xl:p-24">
+		<div className="h-auto">
+			<section
+				className="h-screen bg-bg-welcome m-0 flex items-start flex-col justify-center
+			text-center text-3xl p-12 md:p-14 lg:p-16 xl:p-24"
+			>
 				<p className="text-white text-sm md:text-2xl lg:text-4xl">
 					Hi, My name is
 				</p>

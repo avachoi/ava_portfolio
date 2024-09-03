@@ -13,21 +13,21 @@ import video from "../assets/icons/video.png";
 export default function Projects() {
 	return (
 		<div className="bg-bg-grey p-6 pt-14 text-white " id="projects">
-			<h2 className="text-xl ">Projects</h2>
-			<div className="flex flex-wrap justify-center">
-				<div className="max-w-4xl">
+			<h2 className="text-xl xl:text-4xl text-bg-orange font-bold">Projects</h2>
+			<div className="flex flex-wrap justify-center md:mx-60">
+				<div className="max-w-4xl xl:m-32">
 					<img
 						src={fitMate}
 						alt="fitMate"
 						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-110"
 					/>
-					<p>
+					<p className="max-w-xl">
 						Fit Mate.AI is a web app that creates personalized workout plans
 						based on users health info, preferences, and fitness goals, using
 						ChatGPT to deliver tailored routines for each individual.
 					</p>
 					<div className="flex justify-center my-4">
-						<a href="https://github.com/avachoi/fit_mate">
+						<a href="https://github.com/avachoi/fit_mate" target="_blank">
 							<img src={gitPink} alt="github logo" className="w-8" />
 						</a>
 						<a href="https://fit-mate.onrender.com/" className="mx-4">
@@ -84,13 +84,13 @@ export default function Projects() {
 						</MenuItems>
 					</Menu>
 				</div>
-				<div className="max-w-4xl">
+				<div className="max-w-4xl xl:m-32">
 					<img
 						src={avaNote}
 						alt="avaNote"
 						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-110"
 					/>
-					<p>
+					<p className="max-w-xl">
 						Ava Note is a digital notebook app that lets users create, edit, and
 						organize notes across multiple notebooks. It supports adding,
 						deleting, and categorizing notes. Notes are saved in local storage
@@ -149,13 +149,13 @@ export default function Projects() {
 						</MenuItems>
 					</Menu>
 				</div>
-				<div className="max-w-4xl">
+				<div className="max-w-4xl xl:m-32">
 					<img
 						src={covid19}
 						alt="covid19"
 						className="rounded-lg my-6 max-w-xl transition duration-300 ease-in-out hover:scale-110"
 					/>
-					<p>
+					<p className="max-w-xl">
 						Users can see COVID-19 cases in NYC by zip code. The user can switch
 						between seeing the data in a table or a choropleth map.
 					</p>
@@ -214,13 +214,13 @@ export default function Projects() {
 						</MenuItems>
 					</Menu>
 				</div>
-				<div className="max-w-4xl">
+				<div className="max-w-4xl xl:m-32">
 					<img
 						src={mealMaster}
 						alt="mealMaster"
 						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-110"
 					/>
-					<p>
+					<p className="max-w-xl ">
 						Meal Master is a web application that allows users to search and
 						view recipes from various categories. It uses the MealDB API to
 						fetch meal details, including images, instructions, and YouTube
