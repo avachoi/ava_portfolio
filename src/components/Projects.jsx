@@ -30,10 +30,17 @@ export default function Projects() {
 						<a href="https://github.com/avachoi/fit_mate" target="_blank">
 							<img src={gitPink} alt="github logo" className="w-8" />
 						</a>
-						<a href="https://fit-mate.onrender.com/" className="mx-4">
+						<a
+							href="https://fit-mate.onrender.com/"
+							className="mx-4"
+							target="_blank"
+						>
 							<img src={live} alt="live logo" className="w-8" />
 						</a>
-						<a href="https://www.youtube.com/watch?v=1KGj6t7K0jU">
+						<a
+							href="https://www.youtube.com/watch?v=1KGj6t7K0jU"
+							target="_blank"
+						>
 							<img src={video} alt="youtube logo" className="w-8" />
 						</a>
 					</div>
@@ -97,10 +104,14 @@ export default function Projects() {
 						to maintain data across sessions.
 					</p>
 					<div className="flex justify-center my-4">
-						<a href="https://github.com/avachoi/ava_note">
+						<a href="https://github.com/avachoi/ava_note" target="_blank">
 							<img src={gitPink} alt="github logo" className="w-8" />
 						</a>
-						<a href="https://ava-note.onrender.com" className="mx-4">
+						<a
+							href="https://ava-note.onrender.com"
+							className="mx-4"
+							target="_blank"
+						>
 							<img src={live} alt="live logo" className="w-8" />
 						</a>
 					</div>
@@ -160,10 +171,14 @@ export default function Projects() {
 						between seeing the data in a table or a choropleth map.
 					</p>
 					<div className="flex justify-center my-4">
-						<a href="https://github.com/avachoi/cov19_nyc">
+						<a href="https://github.com/avachoi/cov19_nyc" target="_blank">
 							<img src={gitPink} alt="github logo" className="w-8" />
 						</a>
-						<a href="https://fit-mate.onrender.com/" className="mx-4">
+						<a
+							href="https://fit-mate.onrender.com/"
+							className="mx-4"
+							target="_blank"
+						>
 							<img src={live} alt="live logo" className="w-8" />
 						</a>
 					</div>
@@ -227,7 +242,7 @@ export default function Projects() {
 						videos for preparation.
 					</p>
 					<div className="flex justify-center my-4">
-						<a href="https://github.com/avachoi/meal_master">
+						<a href="https://github.com/avachoi/meal_master" target="_blank">
 							<img src={gitPink} alt="github logo" className="w-8" />
 						</a>
 					</div>
