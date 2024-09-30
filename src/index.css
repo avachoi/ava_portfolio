@@ -106,3 +106,9 @@ section {
 		opacity: 0;
 	}
 }
+.floater {
+	position: absolute;
+	top: 200px;
+	right: 200px;
+	width: 600px;
+}
