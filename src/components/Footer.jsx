@@ -6,7 +6,9 @@ import linkedin from "../assets/icons/linkedin.png";
 export default function Footer() {
 	return (
 		<div className="bg-bg-welcome py-8">
-			<div>logo</div>
+			<span className="font-serif text-4xl animate-pulse bg-gradient-to-r from-white via-pf-pink to-pf-orange bg-clip-text text-transparent">
+				Ava
+			</span>
 			<div className="linksContents flex justify-center p-4 items-center">
 				<a href="https://github.com/avachoi" target="_blank">
 					<img src={github} alt="email" className="w-10 m-2" />

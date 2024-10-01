@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import floater from "../assets/floater.png";
+import resume from "../assets/resume.pdf";
 
 export default function Welcome() {
 	const animationDelay = 2500;
@@ -28,7 +29,7 @@ export default function Welcome() {
 			<span>
 				<section
 					className="h-screen bg-bg-welcome m-0 flex items-start flex-col justify-center
-        text-center text-3xl p-12 md:p-14 lg:p-16 xl:p-24"
+        text-center text-3xl p-12 md:p-14 lg:p-16 xl:p-52"
 				>
 					<p className="text-white text-sm md:text-2xl lg:text-4xl">
 						Hi, My name is
@@ -40,7 +41,7 @@ export default function Welcome() {
 					<section className="cd-intro">
 						<h1 className="cd-headline rotate-1">
 							<span className="text-white text-2xl md:text-4xl">I am a </span>
-							<span className="cd-words-wrapper text-white text-2xl md:text-6xl">
+							<span className="cd-words-wrapper text-white text-2xl md:text-8xl">
 								{words.map((word, index) => (
 									<b
 										key={index}
@@ -55,7 +56,7 @@ export default function Welcome() {
 						</h1>
 					</section>
 					<a
-						className="border-2 border-bg-orange text-white p-2 rounded-lg mt-4 md:mt-12 text-sm md:text-2xl"
+						className="border-4 border-bg-orange text-white p-2 rounded-lg mt-4 md:mt-12 text-sm md:text-2xl"
 						href="#contact"
 					>
 						Contact Me
@@ -63,8 +64,25 @@ export default function Welcome() {
 				</section>
 			</span>
 			<span>
-				<img src={floater} className="floater"></img>
+				<img src={floater} className="floater invisible 2xl:visible"></img>
 			</span>
+			<ul className="position: absolute top-1/2 right-96 z-10 text-2xl font-bold space-y-4 invisible 2xl:visible">
+				<li>
+					<a href="#about" className="block">
+						About
+					</a>
+				</li>
+				<li>
+					<a href="#projects" className="block">
+						Projects
+					</a>
+				</li>
+				<li>
+					<a href={resume} target="_blank" className="block ">
+						resume
+					</a>
+				</li>
+			</ul>
 		</div>
 	);
 }

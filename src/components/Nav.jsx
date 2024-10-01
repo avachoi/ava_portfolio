@@ -7,7 +7,7 @@ export default function nav() {
 	return (
 		<div className="bg-bg-grey flex justify-between px-8 py-4 fixed w-full">
 			<div className=" text-xl font-extrabold">
-				<span className="font-serif animate-pulse bg-gradient-to-r from-white via-pf-pink to-pf-orange bg-clip-text text-transparent">
+				<span className="font-serif text-4xl animate-pulse bg-gradient-to-r from-white via-pf-pink to-pf-orange bg-clip-text text-transparent">
 					Ava
 				</span>
 			</div>
