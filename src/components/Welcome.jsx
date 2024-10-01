@@ -25,7 +25,7 @@ export default function Welcome() {
 	}
 
 	return (
-		<div className="h-auto">
+		<div className="h-auto scroll-smooth">
 			<span>
 				<section
 					className="h-screen bg-bg-welcome m-0 flex items-start flex-col justify-center
@@ -66,19 +66,23 @@ export default function Welcome() {
 			<span>
 				<img src={floater} className="floater invisible 2xl:visible"></img>
 			</span>
-			<ul className="position: absolute top-1/2 right-96 z-10 text-2xl font-bold space-y-4 invisible 2xl:visible">
+			<ul className="position: absolute flex items-end flex-col top-1/2 right-96 z-10 text-2xl font-bold space-y-4 invisible 2xl:visible ">
 				<li>
-					<a href="#about" className="block">
+					<a href="#about" className="block hover:underline">
 						About
 					</a>
 				</li>
 				<li>
-					<a href="#projects" className="block">
+					<a href="#projects" className="block hover:underline ">
 						Projects
 					</a>
 				</li>
 				<li>
-					<a href={resume} target="_blank" className="block ">
+					<a
+						href={resume}
+						target="_blank"
+						className="block text-red-300 text-4xl hover:underline"
+					>
 						resume
 					</a>
 				</li>
