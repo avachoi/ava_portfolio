@@ -14,12 +14,12 @@ export default function Projects() {
 	return (
 		<div className="bg-bg-grey p-6 pt-14 text-white " id="projects">
 			<h2 className="text-xl xl:text-4xl text-bg-orange font-bold">Projects</h2>
-			<div className="flex flex-wrap justify-center md:mx-60">
-				<div className="max-w-4xl xl:m-32">
+			<div className="flex flex-wrap justify-center md:mx-52">
+				<div className="md:max-w-sm 2xl:max-w-4xl xl:m-12 2xl:m-20">
 					<img
 						src={fitMate}
 						alt="fitMate"
-						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-110"
+						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-105"
 					/>
 					<p className="max-w-xl">
 						Fit Mate.AI is a web app that creates personalized workout plans
@@ -91,11 +91,11 @@ export default function Projects() {
 						</MenuItems>
 					</Menu>
 				</div>
-				<div className="max-w-4xl xl:m-32">
+				<div className="md:max-w-sm 2xl:max-w-4xl xl:m-12 2xl:m-20">
 					<img
 						src={avaNote}
 						alt="avaNote"
-						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-110"
+						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-105"
 					/>
 					<p className="max-w-xl">
 						Ava Note is a digital notebook app that lets users create, edit, and
@@ -160,11 +160,11 @@ export default function Projects() {
 						</MenuItems>
 					</Menu>
 				</div>
-				<div className="max-w-4xl xl:m-32">
+				<div className="md:max-w-sm 2xl:max-w-4xl xl:m-12 2xl:m-20">
 					<img
 						src={covid19}
 						alt="covid19"
-						className="rounded-lg my-6 max-w-xl transition duration-300 ease-in-out hover:scale-110"
+						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-105"
 					/>
 					<p className="max-w-xl">
 						Users can see COVID-19 cases in NYC by zip code. The user can switch
@@ -229,11 +229,11 @@ export default function Projects() {
 						</MenuItems>
 					</Menu>
 				</div>
-				<div className="max-w-4xl xl:m-32">
+				<div className="md:max-w-sm 2xl:max-w-4xl xl:m-12 2xl:m-20">
 					<img
 						src={mealMaster}
 						alt="mealMaster"
-						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-110"
+						className="rounded-lg my-6 transition duration-300 ease-in-out hover:scale-105"
 					/>
 					<p className="max-w-xl ">
 						Meal Master is a web application that allows users to search and
