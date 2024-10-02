@@ -5,15 +5,15 @@ import resume from "../assets/resume.pdf";
 
 export default function nav() {
 	return (
-		<div className="bg-bg-grey flex justify-between px-8 py-4 fixed w-full">
+		<div className="bg-bg-grey flex justify-between px-8 py-1 fixed w-full 2xl:py-4 ">
 			<div className=" text-xl font-extrabold">
-				<span className="font-serif text-4xl animate-pulse bg-gradient-to-r from-white via-pf-pink to-pf-orange bg-clip-text text-transparent">
+				<span className="font-serif text-2xl 2xl:text-4xl animate-pulse bg-gradient-to-r from-white via-pf-pink to-pf-orange bg-clip-text text-transparent">
 					Ava
 				</span>
 			</div>
 			<Menu as="div" className="relative inline-block text-left">
 				<div>
-					<MenuButton className="inline-flex w-fit justify-center gap-x-1.5  text-white text-xl font-bold hover:text-pf-orange">
+					<MenuButton className="inline-flex w-fit justify-center gap-x-1.5 pt-2 text-white text-xl font-bold hover:text-pf-orange">
 						<GiHamburgerMenu />
 					</MenuButton>
 				</div>
